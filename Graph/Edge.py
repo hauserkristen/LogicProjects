@@ -7,7 +7,7 @@ class Edge(object):
         self.end = end
         self.weight = weight
         
-class NodeTest(unittest.TestCase):
+class EdgeTest(unittest.TestCase):
 
     def test_constructor_no_weight(self):
         start = 2
